@@ -367,4 +367,11 @@ p {
   .right3 ul li a {
     color: var(--darkBlue);
   }
+
+  @media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+    [class*="col-"] {
+      width: 100%;
+    }
+  }
   
