@@ -35,7 +35,6 @@ header h1 {
     list-style-type: none;
 }
 
-
 header nav ul li a {
     color: var(--lightBlue2);
     text-decoration: underline 5px;
@@ -47,20 +46,18 @@ header nav ul li a {
 header nav {
     float: right;
     margin-right: 50px;
-    padding-top: 15px;
-    
-    
+    padding-top: 15px; 
 }
 
 header nav ul li {
     display: inline-block;
-    margin-left: 25px;
-    
+    margin-left: 25px;  
 }
 
 header nav ul {
     list-style-type: none;
 }
+
 img {
     width: 100%;
     height: 275px;
@@ -70,8 +67,8 @@ img {
     position: absolute;
     top: 250px;
     right: 50px;
-  font-size: 25px;
-  color: var(--grey);
+    font-size: 25px;
+    color: var(--grey);
     background-color: var(--lightBlue2);
     padding: 15px;
 }
@@ -81,9 +78,8 @@ p {
 }
 
 .nextto {
-    
     overflow-x:hidden;
-      text-align: center;
+    text-align: center;
   }
   .leftside {
     color: var(--darkBlue);
@@ -91,11 +87,9 @@ p {
     padding: 15px;
     font-size: 75px;
     line-height: 120%;
-    /* float:left; */
     width: 15%;
     display: inline-block;
     text-align: right;
-    
     padding: 25px;
     margin: 0;
     vertical-align: top;
@@ -106,7 +100,6 @@ p {
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
-    /* float:right; */
     width: 70%;
     display: inline-block;
     text-align: justify;
@@ -120,7 +113,6 @@ p {
   .Puzzle {
     position: relative;
   }
-
 
 
   .Puzzle img {
@@ -154,7 +146,6 @@ p {
 
   .Calculator img {
     border: 5px solid var(--lightBlue);
-    
   }
 
   .Calculator img:hover {
@@ -228,7 +219,6 @@ p {
     padding: 15px;
     font-size: 75px;
     line-height: 120%;
-    /* float:left; */
     width: 15%;
     display: inline-block;
     text-align: right;
@@ -242,7 +232,6 @@ p {
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
-    /* float:right; */
     width: 70%;
     display: inline-block;
     text-align: justify;
@@ -257,17 +246,12 @@ p {
 
 
 .left3 {
-    
     color: var(--darkBlue);
-    
-    
     font-size: 75px;
     line-height: 120%;
-    /* float:left; */
     width: 15%;
     display: inline-block;
     text-align: right;
-    
     padding: 25px;
     vertical-align: top;
     border-right: 5px solid var(--darkBlue);
@@ -278,15 +262,12 @@ p {
     padding: 10px;
     font-size: 28px;
     line-height: 120%;
-    /* float:right; */
     width: 70%;
     display: inline-block;
-    
     padding: 25px;
     margin: 0;
     border-collapse: separate;
     border-spacing: 15px 50px;
-    
 }
 
 .nextfour {
@@ -302,7 +283,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
-   right: 5%;
+    right: 5%;
   }
  
   .LS1 {
@@ -311,9 +292,8 @@ p {
     background-color: var(--lightBlue2);
     padding-left: 20px;
     padding-right: 20px;
-   bottom: 10%;
-   right: 5%;
-    
+    bottom: 10%;
+    right: 5%;
   }
 
   .RS1 {
@@ -323,7 +303,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
-   right: 5%;
+    right: 5%;
   }
 
   .LS2 {
@@ -333,7 +313,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
-   right: 5%;
+    right: 5%;
   }
 
   .RS2 {
@@ -343,7 +323,7 @@ p {
     padding-left: 20px;
     padding-right: 20px;
     bottom: 10%;
-   right: 5%;
+    right: 5%;
   }
 
   .right3 ul {
@@ -368,10 +348,20 @@ p {
     color: var(--darkBlue);
   }
 
-  @media only screen and (max-width: 768px) {
+  
+  
+  @media screen and (max-width: 992px) {
     /* For mobile phones: */
     [class*="col-"] {
       width: 100%;
     }
+    .left3 {
+      font-size: 30px;
+      text-align: left;
+    }
+    .leftside {
+      font-size: 30px;
+      text-align: left;
+    }
   }
-  
+ 
